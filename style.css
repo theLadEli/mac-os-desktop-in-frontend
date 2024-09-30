@@ -1,0 +1,59 @@
+* {
+    font-size: 10px;
+    font-family: "SF Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("assets/wallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Toolbar */
+
+header {
+    background: rgb(75,79,68);
+    border-bottom: 1px solid rgb(123,123,123);
+    padding: 3px 12px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+header li {
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Touchbar */
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#touchbar {
+    background: #ffffff88;
+    box-shadow: #3f36363b 10px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    gap: 6px;
+}
+
+.app-icon img {
+    height: 7rem;
+    width: 7rem;
+}
+
