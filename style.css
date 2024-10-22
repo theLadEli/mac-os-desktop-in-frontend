@@ -55,5 +55,6 @@ footer {
 .app-icon img {
     height: 7rem;
     width: 7rem;
+    background: none;
 }
 
