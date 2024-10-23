@@ -4,4 +4,12 @@ $("#121").click(function(){
 
 // ------------------------------
 
-$( "#touchbar").sortable()
+$( "#main").sortable({
+    // axis: "x",
+    connectWith: "#touchbar",
+})
+
+$( "#touchbar").sortable({
+    // axis: "x",
+    connectWith: "#main",
+})
