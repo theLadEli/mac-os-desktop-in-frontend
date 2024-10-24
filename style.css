@@ -99,3 +99,16 @@ footer {
     justify-content: flex-start;
     /* overflow: auto; */
 }
+
+/* Window */
+
+.window {
+    height: 400px;
+    width: 850px;
+    background: #eaeaeacf;
+    position: absolute;
+    top: calc(50%-380px);
+    left: 50%;
+    border-radius: 10px;
+
+}
