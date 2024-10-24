@@ -10,6 +10,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    overflow-y: hidden !important;
+    overflow-y: hidden !important;
 }
 
 /* Toolbar */
@@ -41,7 +43,7 @@ header li {
     border-radius: 6px;
     display: flex;
     flex-direction: column !important;
-    gap: 6px !important;
+    gap: 2px !important;
     min-width: 200px;
     filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.4));
     filter: drop-shadow(0 0 1.5px rgba(0, 0, 0, 0.3));
@@ -52,8 +54,14 @@ header li {
     font-weight: 500;
     line-height: 16px;
     font-size: 13px;
-    padding: 0 10px;
+    padding: 2px 10px;
     color: rgba(0, 0, 0, 0.85) !important
+}
+
+.hm_dropdown-menu-popup li:hover {
+    background: #579cf7;
+    color: #fff !important;
+    border-radius: 4px;
 }
 
 .hm_dropdown-menu-popup hr {
@@ -71,6 +79,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    transition: width 4s ease-in;
 }
 
 #touchbar {
@@ -81,12 +90,14 @@ footer {
     flex-direction: row;
     padding: 6px;
     gap: 6px;
+    transition: width 4s ease-in;
 }
 
 .app-icon img {
     height: 7rem;
     width: 7rem;
     background: none;
+    cursor: pointer;
 }
 
 #main {
@@ -103,6 +114,8 @@ footer {
 /* Window */
 
 .window {
+    min-height: 200px;
+    min-width: 250px;
     height: 400px;
     width: 850px;
     background: #eaeaeacf;

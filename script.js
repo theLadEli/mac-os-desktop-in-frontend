@@ -24,4 +24,6 @@ $(".window").draggable({
     containment: "window",
 })
 
-$(".window").resizable();
+$(".window").resizable({
+    // containment: "window"
+});

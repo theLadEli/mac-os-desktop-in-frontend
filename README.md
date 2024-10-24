@@ -3,5 +3,5 @@
 
 ### To-Do
 - [ ] **#01** Limit the number of items in the touchbar
-- [ ] **#02** Disable scrolling when dragging an icon
+- [X] **#02** Disable scrolling when dragging an icon
 - [ ] **#03** Add App name when dragging an icon to desktop
